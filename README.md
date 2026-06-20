@@ -109,15 +109,15 @@ Since hosting platform accounts and Docker Hub require personal authentication, 
 To compile and publish your backend API image to Docker Hub:
 ```bash
 # Build the image locally
-docker build -t ruchi0070/stockwise-backend:latest ./backend
+docker build -t pri0070/stockwise-backend:latest ./backend
 
 # Login to Docker Hub
 docker login
 
 # Push the image to the repository
-docker push ruchi0070/stockwise-backend:latest
+docker push pri0070/inventory_system:tagname
 ```
-This gives you your **Backend Docker Hub Image Link**: `https://hub.docker.com/repository/docker/ruchi0070/ruchi0070/general`.
+This gives you your **Backend Docker Hub Image Link**: `https://hub.docker.com/repository/registry-1.docker.io/pri0070/inventory_system/general`.
 
 ### 3. Deploy to Render (Free Tier)
 Render supports automatic deployments using our pre-configured `render.yaml` Blueprint file:
